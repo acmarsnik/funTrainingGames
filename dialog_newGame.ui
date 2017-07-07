@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>516</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QScrollArea" name="scrollArea_newGame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>401</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>399</width>
+      <height>649</height>
+     </rect>
+    </property>
+    <widget class="QDialogButtonBox" name="buttonBox_newGame">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>450</y>
+       <width>361</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+    <widget class="QWidget" name="formLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>361</width>
+       <height>411</height>
+      </rect>
+     </property>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_TotalAttempts">
+        <property name="text">
+         <string>Total Attempts:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QSpinBox" name="spinBox_TotalAttempts"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_SuccessfulAttempts">
+        <property name="text">
+         <string>Successful Attempts:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QSpinBox" name="spinBox_SuccessfulAttempts"/>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_Attempt01">
+        <property name="text">
+         <string>Attempt #1:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QComboBox" name="comboBox_Attempt01"/>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_Attempt02">
+        <property name="text">
+         <string>Attempt # 2:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QComboBox" name="comboBox_Attempt02"/>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="label_Attempt03">
+        <property name="text">
+         <string>Attempt #3:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QComboBox" name="comboBox_Attempt03"/>
+      </item>
+      <item row="8" column="0">
+       <widget class="QLabel" name="label_Attempt04">
+        <property name="text">
+         <string>Attempt # 4:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1">
+       <widget class="QComboBox" name="comboBox_Attempt04"/>
+      </item>
+      <item row="9" column="0">
+       <widget class="QLabel" name="label_Attempt05">
+        <property name="text">
+         <string>Attempt #5:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="1">
+       <widget class="QComboBox" name="comboBox_Attempt05"/>
+      </item>
+      <item row="10" column="0">
+       <widget class="QLabel" name="label_Attempt06">
+        <property name="text">
+         <string>Attempt # 6:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="1">
+       <widget class="QComboBox" name="comboBox_Attempt06"/>
+      </item>
+      <item row="11" column="0">
+       <widget class="QLabel" name="label_Attempt07">
+        <property name="text">
+         <string>Attempt # 7:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="1">
+       <widget class="QComboBox" name="comboBox_Attempt07"/>
+      </item>
+      <item row="12" column="0">
+       <widget class="QLabel" name="label_Attempt08">
+        <property name="text">
+         <string>Attempt #8:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="1">
+       <widget class="QComboBox" name="comboBox_Attempt08"/>
+      </item>
+      <item row="13" column="0">
+       <widget class="QLabel" name="label_Attempt09">
+        <property name="text">
+         <string>Attempt # 9:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="13" column="1">
+       <widget class="QComboBox" name="comboBox_Attempt09"/>
+      </item>
+      <item row="14" column="0">
+       <widget class="QLabel" name="label_Attempt10">
+        <property name="text">
+         <string>Attempt #10:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="1">
+       <widget class="QComboBox" name="comboBox_Attempt10"/>
+      </item>
+      <item row="15" column="0">
+       <widget class="QLabel" name="label_Attempt11">
+        <property name="text">
+         <string>Attempt # 11:           (If Necessary)</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="1">
+       <widget class="QComboBox" name="comboBox_Attempt11"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_TotalAttempts_2">
+        <property name="text">
+         <string>Clutch Attempts:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QSpinBox" name="spinBox_TotalAttempts_2"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_SuccessfulAttempts_2">
+        <property name="text">
+         <string>Successful Clutch Attempts:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QSpinBox" name="spinBox_SuccessfulAttempts_2"/>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
