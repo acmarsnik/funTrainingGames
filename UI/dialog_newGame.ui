@@ -88,7 +88,23 @@
        </widget>
       </item>
       <item row="4" column="1">
-       <widget class="QComboBox" name="comboBox_Attempt01"/>
+       <widget class="QComboBox" name="comboBox_Attempt01">
+        <item>
+         <property name="text">
+          <string>Unknown</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Successful</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Failed</string>
+         </property>
+        </item>
+       </widget>
       </item>
       <item row="5" column="0">
        <widget class="QLabel" name="label_Attempt02">
@@ -98,7 +114,23 @@
        </widget>
       </item>
       <item row="5" column="1">
-       <widget class="QComboBox" name="comboBox_Attempt02"/>
+       <widget class="QComboBox" name="comboBox_Attempt02">
+        <item>
+         <property name="text">
+          <string>Unknown</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Successful</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Failed</string>
+         </property>
+        </item>
+       </widget>
       </item>
       <item row="6" column="0">
        <widget class="QLabel" name="label_Attempt03">
@@ -108,7 +140,23 @@
        </widget>
       </item>
       <item row="6" column="1">
-       <widget class="QComboBox" name="comboBox_Attempt03"/>
+       <widget class="QComboBox" name="comboBox_Attempt03">
+        <item>
+         <property name="text">
+          <string>Unknown</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Successful</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Failed</string>
+         </property>
+        </item>
+       </widget>
       </item>
       <item row="8" column="0">
        <widget class="QLabel" name="label_Attempt04">
@@ -118,7 +166,23 @@
        </widget>
       </item>
       <item row="8" column="1">
-       <widget class="QComboBox" name="comboBox_Attempt04"/>
+       <widget class="QComboBox" name="comboBox_Attempt04">
+        <item>
+         <property name="text">
+          <string>Unknown</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Successful</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Failed</string>
+         </property>
+        </item>
+       </widget>
       </item>
       <item row="9" column="0">
        <widget class="QLabel" name="label_Attempt05">
@@ -128,7 +192,23 @@
        </widget>
       </item>
       <item row="9" column="1">
-       <widget class="QComboBox" name="comboBox_Attempt05"/>
+       <widget class="QComboBox" name="comboBox_Attempt05">
+        <item>
+         <property name="text">
+          <string>Unknown</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Successful</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Failed</string>
+         </property>
+        </item>
+       </widget>
       </item>
       <item row="10" column="0">
        <widget class="QLabel" name="label_Attempt06">
@@ -138,7 +218,23 @@
        </widget>
       </item>
       <item row="10" column="1">
-       <widget class="QComboBox" name="comboBox_Attempt06"/>
+       <widget class="QComboBox" name="comboBox_Attempt06">
+        <item>
+         <property name="text">
+          <string>Unknown</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Successful</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Failed</string>
+         </property>
+        </item>
+       </widget>
       </item>
       <item row="11" column="0">
        <widget class="QLabel" name="label_Attempt07">
@@ -148,7 +244,23 @@
        </widget>
       </item>
       <item row="11" column="1">
-       <widget class="QComboBox" name="comboBox_Attempt07"/>
+       <widget class="QComboBox" name="comboBox_Attempt07">
+        <item>
+         <property name="text">
+          <string>Unknown</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Successful</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Failed</string>
+         </property>
+        </item>
+       </widget>
       </item>
       <item row="12" column="0">
        <widget class="QLabel" name="label_Attempt08">
@@ -158,7 +270,23 @@
        </widget>
       </item>
       <item row="12" column="1">
-       <widget class="QComboBox" name="comboBox_Attempt08"/>
+       <widget class="QComboBox" name="comboBox_Attempt08">
+        <item>
+         <property name="text">
+          <string>Unknown</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Successful</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Failed</string>
+         </property>
+        </item>
+       </widget>
       </item>
       <item row="13" column="0">
        <widget class="QLabel" name="label_Attempt09">
@@ -168,7 +296,23 @@
        </widget>
       </item>
       <item row="13" column="1">
-       <widget class="QComboBox" name="comboBox_Attempt09"/>
+       <widget class="QComboBox" name="comboBox_Attempt09">
+        <item>
+         <property name="text">
+          <string>Unknown</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Successful</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Failed</string>
+         </property>
+        </item>
+       </widget>
       </item>
       <item row="14" column="0">
        <widget class="QLabel" name="label_Attempt10">
@@ -178,7 +322,23 @@
        </widget>
       </item>
       <item row="14" column="1">
-       <widget class="QComboBox" name="comboBox_Attempt10"/>
+       <widget class="QComboBox" name="comboBox_Attempt10">
+        <item>
+         <property name="text">
+          <string>Unknown</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Successful</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Failed</string>
+         </property>
+        </item>
+       </widget>
       </item>
       <item row="15" column="0">
        <widget class="QLabel" name="label_Attempt11">
@@ -191,7 +351,23 @@
        </widget>
       </item>
       <item row="15" column="1">
-       <widget class="QComboBox" name="comboBox_Attempt11"/>
+       <widget class="QComboBox" name="comboBox_Attempt11">
+        <item>
+         <property name="text">
+          <string>Unknown</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Successful</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Failed</string>
+         </property>
+        </item>
+       </widget>
       </item>
       <item row="2" column="0">
        <widget class="QLabel" name="label_TotalAttempts_2">
